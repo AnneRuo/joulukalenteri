@@ -2,9 +2,6 @@ var date = new Date();
 var todaysDate = date.getDate();
 console.log(todaysDate);
 
-// Delete this on the 1st of December
-todaysDate = 24;
-
 $(".card").click(function () {
   // set date header for card
   let id = $(this).attr("id");
