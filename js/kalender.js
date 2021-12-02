@@ -16,6 +16,7 @@ $(".card").click(function () {
     let content = cheatContent[i];
     $("#modal-text").addClass("cheat-text").removeClass("secret-code");
     $("#modal-img").attr("src", content[1]);
+    $("#modal-text1").show();
     $("#modal-text1").text(content[0]);
     $("#modal-vid").hide();
   } else {
